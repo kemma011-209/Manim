@@ -129,7 +129,6 @@ Transform class smoothly transitions between different object configurations. To
 Create a circle, animate it with several transformations using the there_and_back easing function for smooth back-and-forth motion.
 
 
-
 ##Data visualization
 
 Manim is a powerful tool for creating animated visualizations from graph plotting, customization, and animated scatterplots to histograms.
@@ -137,7 +136,7 @@ Manim is a powerful tool for creating animated visualizations from graph plottin
 ### Plotting graphs and charts with Manim:
 To plot graphs, create a scene and instantiate an Axes object, which represents Cartesian axes. Use x_range and y_range to specify axis ranges and customize their appearance with x_axis_config and y_axis_config.
 
-Picture 18
+![Picture18](https://user-images.githubusercontent.com/115800139/235098354-ee2d01de-da0a-4c24-a4a4-605e0f918052.png)
 
 Create an Axes object with x and y-axis ranges of [-5, 5]. Customize axis appearance and plot a curve using a lambda function. Add the Axes object, axis labels, and curve to the scene.
 
@@ -150,48 +149,48 @@ In the following I will explain the moving camera example by Manim.
 Now define the FollowingGraphCamera class. This inherits from MovingCameraScene, which provides the basic functionality for moving the camera around the scene.
 
 
-Picture 19
+![Picture19](https://user-images.githubusercontent.com/115800139/235098403-a6fa75bb-cb65-472b-be8c-854285b2ef12.png)
 
 ### Save the initial camera state
 Before we start animating the camera, save its initial state so we can restore it later. Do this using the save_state() method of the camera's frame object.
 
-Picture 20
+![Picture20](https://user-images.githubusercontent.com/115800139/235098453-2c48afbb-f9fa-4d9c-aaae-a7aa0214e76f.png)
 
 ### Axes and the curve
 To create axes and a curve, we use the Axes class to create the axes and the plot() method to plot the curve. In this example, the sin() function is plotted over the range [0, 3*PI]
 
 
-Picture 21
+![Picture21](https://user-images.githubusercontent.com/115800139/235098541-4ffd786d-e1a0-4700-b316-3cf4dca3a24f.png)
 
 ### Dots based on the graph
 We can now create dots based on the graph that we will use to animate the camera. In this example, we will create three dots: one that will move along the curve, and two that will mark the endpoints of the curve.
 
-Picture 22
+![Picture22](https://user-images.githubusercontent.com/115800139/235098580-e7d771f8-4549-4df8-9a00-f1355bf54cbd.png)
 
 ### Add the objects to the scene.
 We can now add the axes, curve, and dots to the scene using add().
 
-Picture 23
+![Picture23](https://user-images.githubusercontent.com/115800139/235098634-bc2b537c-e652-4211-ae71-ccc73e0e94d6.png)
 
 
 ### Move the camera to the starting point.
 Before we start animating the camera, we need to move it to the starting point of the animation. In this example, we will move the camera to the position of the first dot.
 
-Picture 24
+![Picture24](https://user-images.githubusercontent.com/115800139/235098690-7fa26fc3-740b-4d60-8b24-7a2a52c837de.png)
 
 
 ### Define the updater function.
 To animate the camera along the curve, an updater function needs to be defined that updates the camera's position based on the moving dot's position. The add_updater() method of the camera's frame object can be used to accomplish this. 
 
 
-Picture 25
+![Picture25](https://user-images.githubusercontent.com/115800139/235098744-732adaf0-e107-48d4-a53d-b5eed8b89d26.png)
 
 
 ### Move the dot along the curve
 Use the MoveAlongPath animation to move the dot along the curve. We can pass in the moving_dot object, the graph object, and a rate_func (in this case, linear) to control the speed of the animation.
 
 
-Picture 26
+![Picture26](https://user-images.githubusercontent.com/115800139/235098780-839da45b-8f8d-4b2f-8973-6973a3c1221c.png)
 
 
 
@@ -199,13 +198,13 @@ Picture 26
 Once the animation is complete, we need to remove the updater function using the remove_updater() method of the camera's frame object.
 
 
-Picture 27
+![Picture27](https://user-images.githubusercontent.com/115800139/235098826-f3d55e06-4b0d-4f32-b71d-6bdc3a01fa4f.png)
 
 
 ### Restore the camera state
 We can restore the camera's state to its initial state using the Restore() animation, passing in the camera.frame object.
 
-Picture 28
+![Picture28](https://user-images.githubusercontent.com/115800139/235098920-e5fa5ccb-9000-4c15-b3a9-0fcc3acd4368.png)
 
 
 
@@ -215,16 +214,16 @@ Picture 28
 Default: Manim uses a frame rate of 60 frames per second and a resolution of 1080p. You can customize these settings to suit your needs.
 To set a custom frame rate add the -r or --frame_rate flag to the command line when running Manim. For example, to set a frame rate of 30 fps, you can run:
 
-Picture 29
+![Picture29](https://user-images.githubusercontent.com/115800139/235099011-36537393-bb0d-48a0-919f-96ab1843783a.png)
 
 To set a custom resolution, you can add the -p or --pixel_height flag to the command line when running Manim. For example, to set a resolution of 720p (1280x720 pixels), you can run:
 
-Picture 30
+![Picture30](https://user-images.githubusercontent.com/115800139/235099074-ac7d910d-0285-4ce1-ba57-657c213a1ae0.png)
 
 ### Using Positional  constants to position objects	
 Manim's constants UP, DOWN, LEFT, and RIGHT are useful for layout and object alignment. Example: Use LEFT and RIGHT constants to position two text objects side-by-side with space between them
 
-Picture 31
+![Picture31](https://user-images.githubusercontent.com/115800139/235099146-c9cb1c1e-ad5a-4a91-a804-3ab51e843609.png)
 
 Use move_to to position text objects relative to the screen by multiplying LEFT and RIGHT constants by 4 to move them left and right of the screens centre.
 
@@ -234,7 +233,7 @@ Manim provides several built-in curve types, such as Line, Arc, and Circle. Howe
 
 To create a Bézier curve use the CubicBezier, taking four control points as arguments:
 
-Picture 32
+![Picture32](https://user-images.githubusercontent.com/115800139/235099195-8eb4d4e4-9acb-4d35-a928-3d182383d136.png)
 
 Create Bézier curve using four control points - UP, 2 * RIGHT, 2 * LEFT, and DOWN. CubicBezier returns a Path object for animation using Create method. Manim has other curve types, including QuadraticBezier and ArcBetweenPoints.
 
@@ -244,13 +243,13 @@ Create Bézier curve using four control points - UP, 2 * RIGHT, 2 * LEFT, and DO
 VGroup class for grouping multiple Mobjects (Mathematical objects) together. 
 To create a VGroup, pass the Mobjects to be grouped as arguments:
 
-Picture 33
+![Picture33](https://user-images.githubusercontent.com/115800139/235099230-0551f5fd-af42-40b1-97e0-6bcfcccf6381.png)
 
 The example creates a horizontal group of a Circle and a Square using VGroup. Then, the group is rotated 90 degrees.
 
 Using the Mobject.add() to add new objects to an existing group:
 
-Picture 34
+![Picture34](https://user-images.githubusercontent.com/115800139/235099279-7075cff7-42df-431c-a123-54629603c952.png)
 
 In this example, a Triangle is added to the existing group using the add method and positioned next to the square using the next to method.
 
