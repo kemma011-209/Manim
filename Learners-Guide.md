@@ -12,8 +12,9 @@ Manim offers several benefits for educators, researchers, and students. It enabl
 ManimCE and ManimGL are Manim versions with different graphics engines and rendering approaches. ManimCE uses Cairo for 2D and renders each frame as a separate image, while ManimGL uses OpenGL for 3D and offers real-time rendering. ManimCE is more comprehensive and user-friendly, while ManimGL is still developing and has fewer features.
 
 ### Resources:
-The resource I would recommend is the Manim Website and which I used: \ 
-[link](https://www.manim.community/)
+The resource I would recommend is the Manim Website and which I used:  
+* [Manim Community Homepage](https://www.manim.community/)
+
 
 
 ## Basic Animations
