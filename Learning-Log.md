@@ -94,7 +94,7 @@ Spent today putting the animation all together and amending the timings, took a 
 ### (25/04/23)
 Spent today reviewing everything I had done over the past 6 weeks, mainly going over my animation for the Gaussian Integral and seeing if there was anything else I could tweak to improve upon it. I also spent a while having to remove as many words from my Learning Log as possible to get it below the word limit.
 
-##Conclusion 
+## Conclusion 
 
 Overall, my experience with Manim was extremely positive, and I found the library to be very flexible and powerful. While there was a learning curve, I found that the official documentation was very helpful, with my biggest issue is that a lot of solutions to problems I had on Stack Overflow or tutorials on the internet using outdated versions of the code.  I wish I spent more time doing my own examples and incorporating I wish I had added more complexity to, I kept wanting to add more features from Manim, even if it made the substance/visualization too busy.
 
