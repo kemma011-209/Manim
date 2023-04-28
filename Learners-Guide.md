@@ -17,7 +17,7 @@ The resource I would recommend is the Manim Website ,what I used to learn Manim:
 
 
 
-## Basic Animations
+## Basics
 
 ### Creating a Scene, Adding Objects to It:
 To create a scene, you need to create a new class that inherits from the Scene class. Example:
