@@ -1,5 +1,7 @@
 # Learning Log
+
 ## What is Manim?
+Manim (Mathematical Animation Engine) is an open-source animation engine for explanatory math videos, originally being developed by Grant Sanderson more commonly known as 3 Blue 1 Brown. It allows the creation of high-quality animations and videos that visualize mathematical concepts in an intuitive way. Manim is written in Python and provides a simple interface for creating animations and graphics that can be exported as video files or GIFs. 
 
 ## Manims Versions
 
