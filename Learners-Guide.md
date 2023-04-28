@@ -11,7 +11,7 @@ Manim offers several benefits for educators, researchers, and students. It enabl
 ### Versions:
 ManimCE and ManimGL are Manim versions with different graphics engines and rendering approaches. ManimCE uses Cairo for 2D and renders each frame as a separate image, while ManimGL uses OpenGL for 3D and offers real-time rendering. ManimCE is more comprehensive and user-friendly, while ManimGL is still developing and has fewer features.
 
-###Alternatives:
+### Alternatives:
 The major alternatives to Manim are After Effects(AE) and Blender. Manim, purpose-built for math animations, offers precise control over symbols and built-in graphing/animation functions, making complex animations quick to create, despite being less versatile than AE or Blender. It is far easier to use and learn, making it perfect for people interested in animation creation with minimal effort.
 
 ### Resources:
