@@ -28,14 +28,14 @@ Created a MyScene class that adds a Circle object to the scene using the self.ad
 ### Animating Over Time
 To animate an object over time you use play()Example:
 
-Picture 2
+![Picture2](https://user-images.githubusercontent.com/115800139/235097411-4fed492f-d411-40d3-ac16-c19ec1355c95.png)
 
 We scale the Circle object to double its size using circle.animate.scale(2) with linear rate function and 2 seconds duration.
 
 ### Changing Object Properties
 You can change the properties of an object in Manim to create different effects. Example:
 
-Picture 3 
+![Picture3](https://user-images.githubusercontent.com/115800139/235097623-d29a16d7-bc9d-446c-be1f-939f8e08c954.png)
 
 A blue Circle object is created with 50% opacity, then shift(), set_color(), and set_fill() methods are used to animate the Circle's position, color, and opacity properties with the there_and_back rate function over a 2-second duration.
 
@@ -45,30 +45,30 @@ To animate equations Manim uses LaTex, a language unto itself. I won’t be prov
 
 ### Equation:
 
-Picture 4
+![Picture4](https://user-images.githubusercontent.com/115800139/235097672-c30e2b84-c42d-4056-bcaf-eeefa23f3c77.png)
 
 ### Matrix:
 
-Picture 5
+![Picture5](https://user-images.githubusercontent.com/115800139/235097725-bcd675bf-74de-4f98-8f26-0ce675f4d947.png)
 
 ### Intergral:
 
-Picture 6
+![Picture6](https://user-images.githubusercontent.com/115800139/235097790-42f97ca7-0616-47aa-9ca7-e91258addb0d.png)
 
 ### Greek symbols
 
-Picture 7
+![Picture7](https://user-images.githubusercontent.com/115800139/235097836-c58f72ad-519b-41ca-941f-c97e36f4f19a.png)
 
 ### Fraction
 
-Picture 8
+![Picture8](https://user-images.githubusercontent.com/115800139/235097889-c200bdd1-cd28-4c2e-b12e-bd6e6d74fed3.png)
 
 ## Animating text and LaTeX equations in Manim.
 
 ### Text:
 The Text object is used to add text to a scene. Example:
 
-Picture 9
+![Picture9](https://user-images.githubusercontent.com/115800139/235097962-ee20ade5-ad7f-4c7e-95cd-bdc5d2167cdc.png)
 
 We created a Text object with the example of "Hello World!" and then used the Write to animate it.
 
@@ -76,7 +76,7 @@ We created a Text object with the example of "Hello World!" and then used the Wr
 ### Text Properties: 
 We can change various properties of a Text object like position, color, opacity, etc. 
 
-Picture 10
+![Picture10](https://user-images.githubusercontent.com/115800139/235097998-6dc0604a-3720-4d74-a6d4-c9f31a6be6c8.png)
 
 A red Text object is created with "Hello World!" and moved to the top edge of the screen. The object is animated by shifting it down, scaling it up, and changing its color to blue.
 
@@ -84,22 +84,22 @@ A red Text object is created with "Hello World!" and moved to the top edge of th
 ### LaTeX Equations:
 Manim has great support for LaTeX equations. Example:
 
-Picture 11
+![Picture11](https://user-images.githubusercontent.com/115800139/235098029-d2b54999-2bb8-42cd-97d3-6c08e88afbec.png)
 
 We created a MathTex object with the LaTeX equation.
 
-Picture 12
+![Picture12](https://user-images.githubusercontent.com/115800139/235098077-25797d94-5e67-4841-ada3-517aea09ce5b.png)
 
 Then used Write to animate it.
 
 ### Equation Properties: 
 We can change various properties of a MathTex object like position, color, opacity, etc. Example:
 
-Picture 13
+![Picture13](https://user-images.githubusercontent.com/115800139/235098120-0712bc71-66a7-4c56-b48c-0cd6db99f441.png)
 
 Above we created a MathTex object with the LaTeX equation. 
 
-Picture 14
+![Picture14](https://user-images.githubusercontent.com/115800139/235098151-44ae146e-b617-447e-8efd-4c64b539d20b.png)
 
 The equation text object with yellow color is moved to the top edge of the screen using the to_edge method. The animation scales the object by a factor of 2 and changes its color to red.
 
@@ -109,7 +109,7 @@ The equation text object with yellow color is moved to the top edge of the scree
 
 The AnimationGroup is used to animate multiple objects simultaneously. You create a list of the objects you want to animate, and then pass the list and the desired animation to an instance of AnimationGroup. Example:
 
-Picture 15
+![Picture15](https://user-images.githubusercontent.com/115800139/235098180-c9cd2114-8fe7-4428-85a8-ae72f6ce6a07.png)
 
 We created a circle and a square, then AnimationGroup and pass the objects (circle and square) and the animation (Create) as arguments. Finally, play the animation using self.play(group).
 
@@ -117,14 +117,14 @@ We created a circle and a square, then AnimationGroup and pass the objects (circ
 Using the Transform class for smoothly transitioning between different object configurations:
 Transform class enables smooth object transitions. Create initial and final objects, pass them to Transform instance. Example:
 
-Picture 16
+![Picture16](https://user-images.githubusercontent.com/115800139/235098230-4932f175-14dc-49ac-8a62-f71e08ae31b2.png)
 
 Create a circle and square, create initial animation to create the circle, wait using self.wait(), then Transform animation to transform circle into square.
 
 Using Easing Functions to Control the Motion of Objects
 Transform class smoothly transitions between different object configurations. To use, create the initial and final objects, then pass them to an instance of Transform. Example:
 
-Picture 17
+![Picture17](https://user-images.githubusercontent.com/115800139/235098304-3b2f2c8f-5301-4a48-88d9-e440e999f50f.png)
 
 Create a circle, animate it with several transformations using the there_and_back easing function for smooth back-and-forth motion.
 
