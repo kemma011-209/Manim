@@ -17,10 +17,12 @@ The major alternatives to Manim are After Effects(AE) and Blender. Manim, purpos
 ### Resources:
 The resource I would recommend is the Manim Website ,what I used to learn Manim:  
 * [Manim Community Homepage](https://www.manim.community/) \
-All you need to learn Manim is basic knwoledge of Python:
+All you need to learn Manim is basic knowledge of Python, even if you have little to no experience programming by just learining the basics you should be able to follow this guide:
 * [Python Crash Course](https://www.youtube.com/watch?v=JJmcL1N2KQs) \
  Installation  Guide: 
-* [My Guide To Installing Manim](https://youtu.be/NYKwmE8Ddxo)
+* [My Guide To Installing Manim](https://youtu.be/NYKwmE8Ddxo) \
+Manim Tutorial:
+* [Manim Tutorial](https://www.youtube.com/playlist?list=PLsMrDyoG1sZm6-jIUQCgN3BVyEVOZz3LQ)
 
 
 ## Basics
