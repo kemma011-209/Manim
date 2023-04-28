@@ -19,7 +19,7 @@ The resource I would recommend is the Manim Website ,what I used to learn Manim:
 
 ## Basics
 
-### Creating a Scene, Adding Objects to It:
+### Creating Scenes and Objects:
 To create a scene, you need to create a new class that inherits from the Scene class. Example:
 
 ![Picture1](https://user-images.githubusercontent.com/115800139/235097053-81ab9e12-0038-44cd-a4a0-1c36ad267469.png)
