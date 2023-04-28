@@ -19,7 +19,7 @@ The resource I would recommend is the Manim Website ,what I used to learn Manim:
 * [Manim Community Homepage](https://www.manim.community/) \
 All you need to learn Manim is basic knwoledge of Python:
 * [Python Crash Course](https://www.youtube.com/watch?v=JJmcL1N2KQs) \
- Instillation Guide: 
+ Installation  Guide: 
 * [My Guide To Installing Manim](https://youtu.be/NYKwmE8Ddxo)
 
 
