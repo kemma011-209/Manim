@@ -244,7 +244,7 @@ To create a Bézier curve use the CubicBezier, taking four control points as arg
 
 Create Bézier curve using four control points - UP, 2 * RIGHT, 2 * LEFT, and DOWN. CubicBezier returns a Path object for animation using Create method. Manim has other curve types, including QuadraticBezier and ArcBetweenPoints.
 
-
+<!--- This has been Commented Out, so that the document is under 1500 words
 ## Using the VGroup & Mobject.add() 
 
 VGroup class for grouping multiple Mobjects (Mathematical objects) together. 
@@ -258,7 +258,7 @@ Using the Mobject.add() to add new objects to an existing group:
 
 ![Picture34](https://user-images.githubusercontent.com/115800139/235099279-7075cff7-42df-431c-a123-54629603c952.png)
 
-In this example, a Triangle is added to the existing group using the add method and positioned next to the square using the next to method.
+In this example, a Triangle is added to the existing group using the add method and positioned next to the square using the next to method. ---> 
 
 
 
