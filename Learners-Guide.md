@@ -21,7 +21,7 @@ https://www.manim.community/
 ### Creating a Scene, Adding Objects to It:
 To create a scene, you need to create a new class that inherits from the Scene class. Example:
 
-(https://github.com/kemma011-209/Manim/issues/1#issue-1688132673)
+![Picture1](https://user-images.githubusercontent.com/115800139/235097053-81ab9e12-0038-44cd-a4a0-1c36ad267469.png)
 
 Created a MyScene class that adds a Circle object to the scene using the self.add() method. You can add any type of object to the scene this way, including shapes, text, and images.
 
